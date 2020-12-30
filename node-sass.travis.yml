@@ -1,0 +1,26 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : node-sass 
+# Source Repo         : https://github.com/kishorkunal-raj/node-sass
+# Travis Job Link     : https://travis-ci.com/github/Siddhesh-Ghadi/sample-travis-job/builds/210384845
+# Created travis.yml  : Yes
+# Maintainer          : Kishor Kunal Raj <kishore.kunal.mr@ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+
+language: node_js
+arch:
+  - amd64
+  - ppc64le
+  
+dist: bionic
+
+node_js:
+  - 15
+  - 14
+    13
+  - 12
+  - 11
+  - 10
